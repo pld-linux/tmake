@@ -1,8 +1,8 @@
 Summary:	Easy-to-use tool for creating and maintaining portable makefiles
 Summary(pl):	£atwe_w_u¿ytkowaniu narzêdzie do tworzenia i zarz±dzania przeno¶nymi makefile'ami
 Name:		tmake
-Version:	1.7
-Release:	2
+Version:	1.8
+Release:	1
 License:	BSD-like
 Group:		Development/Building
 Group(de):	Entwicklung/Bauen
