@@ -1,14 +1,14 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	Easy-to-use tool for creating and maintaining portable makefiles
 Summary(pl):	£atwe_w_u¿ytkowaniu narzêdzie do tworzenia i zarz±dzania przeno¶nymi makefile'ami
 Name:		tmake
 Version:	1.13
-Release:	2
+Release:	3
 License:	BSD-like
 Group:		Development/Building
 Source0:	ftp://ftp.troll.no/freebies/tmake/%{name}-%{version}.tar.gz
 # Source0-md5:	02909d15e5eee9d355b81d74b98a3bea
 URL:		http://www.troll.no/freebies/tmake.html
-Requires:	perl >= 5.001
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
