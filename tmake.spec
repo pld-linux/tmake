@@ -2,14 +2,14 @@ Summary:	Easy-to-use tool for creating and maintaining portable makefiles
 Name:		tmake
 Version:	1.7
 Release:	2
+License:	BSD-like
 Group:		Development/Building
 Group(de):	Entwicklung/Bauen
 Group(pl):	Programowanie/Budowanie
-License:	BSD-like
-URL:		http://www.troll.no/freebies/tmake.html
 Source0:	ftp://ftp.troll.no/freebies/tmake/%{name}-%{version}.tar.gz
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+URL:		http://www.troll.no/freebies/tmake.html
 Requires:	perl >= 5.001
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is an easy-to-use tool for creating and maintaining makefiles
@@ -22,6 +22,7 @@ your time writing code, not makefiles.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_datadir}/tmake,%{_bindir}}
+
 install bin/progen $RPM_BUILD_ROOT%{_bindir}
 install lib/unix/*.t $RPM_BUILD_ROOT%{_datadir}/tmake
 sed 's@$(QTDIR)@/usr/X11R6@;s@^TMAKE_INCDIR_QT.*@TMAKE_INCDIR_QT		= /usr/X11R6/include/qt@' \
