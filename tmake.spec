@@ -5,8 +5,6 @@ Version:	1.8
 Release:	1
 License:	BSD-like
 Group:		Development/Building
-Group(de):	Entwicklung/Bauen
-Group(pl):	Programowanie/Budowanie
 Source0:	ftp://ftp.troll.no/freebies/tmake/%{name}-%{version}.tar.gz
 URL:		http://www.troll.no/freebies/tmake.html
 Requires:	perl >= 5.001
