@@ -1,4 +1,5 @@
 Summary:	Easy-to-use tool for creating and maintaining portable makefiles
+Summary(pl):	£atwe_w_u¿ytkowaniu narzêdzie do tworzenia i zarz±dzania przeno¶nymi makefile'ami
 Name:		tmake
 Version:	1.7
 Release:	2
@@ -15,6 +16,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is an easy-to-use tool for creating and maintaining makefiles
 across many platforms and compilers. The idea is that you should spend
 your time writing code, not makefiles.
+
+%description -l pl
+Jest to £atwe_w_u¿ytkowaniu narzêdzie do tworzenia i zarz±dzania 
+makefile'ami po¶ród wielu platform i kompilatorów. Idea jest taka, ¿e
+powiniene¶ spêdzaæ czas pisz±c kod, a nie Makefile.
 
 %prep
 %setup -q
