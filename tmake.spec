@@ -6,6 +6,7 @@ Release:	1
 License:	BSD-like
 Group:		Development/Building
 Source0:	ftp://ftp.troll.no/freebies/tmake/%{name}-%{version}.tar.gz
+# Source0-md5:	1cd909d9249b8bb32ab3743850725704
 URL:		http://www.troll.no/freebies/tmake.html
 Requires:	perl >= 5.001
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
