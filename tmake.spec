@@ -2,7 +2,7 @@ Summary:	Easy-to-use tool for creating and maintaining portable makefiles
 Summary(pl):	£atwe_w_u¿ytkowaniu narzêdzie do tworzenia i zarz±dzania przeno¶nymi makefile'ami
 Name:		tmake
 Version:	1.11
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Development/Building
 Source0:	ftp://ftp.troll.no/freebies/tmake/%{name}-%{version}.tar.gz
@@ -30,7 +30,7 @@ install -d $RPM_BUILD_ROOT{%{_datadir}/tmake,%{_bindir}}
 
 install bin/progen $RPM_BUILD_ROOT%{_bindir}
 install lib/unix/*.t $RPM_BUILD_ROOT%{_datadir}/tmake
-sed 's@$(QTDIR)@/usr/X11R6@;s@^TMAKE_INCDIR_QT.*@TMAKE_INCDIR_QT		= /usr/X11R6/include/qt@' \
+sed 's@\$(QTDIR)@/usr@;s@^TMAKE_INCDIR_QT.*@TMAKE_INCDIR_QT		= /usr/include/qt@' \
 	lib/linux-g++/tmake.conf > $RPM_BUILD_ROOT%{_datadir}/tmake/tmake.conf
 sed "s@\$ENV{\"TMAKEPATH\"}@\"%{_datadir}/tmake\"@" bin/tmake > $RPM_BUILD_ROOT%{_bindir}/tmake
 
