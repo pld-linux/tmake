@@ -33,13 +33,11 @@ sed 's@$(QTDIR)@/usr/X11R6@;s@^TMAKE_INCDIR_QT.*@TMAKE_INCDIR_QT		= /usr/X11R6/i
 	lib/linux-g++/tmake.conf > $RPM_BUILD_ROOT%{_datadir}/tmake/tmake.conf
 sed "s@\$ENV{\"TMAKEPATH\"}@\"%{_datadir}/tmake\"@" bin/tmake > $RPM_BUILD_ROOT%{_bindir}/tmake
 
-gzip -9nf README CHANGES
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz doc/* example
+%doc README CHANGES doc/* example
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/tmake
