@@ -17,7 +17,7 @@ across many platforms and compilers. The idea is that you should spend
 your time writing code, not makefiles.
 
 %description -l pl
-Jest to £atwe_w_u¿ytkowaniu narzêdzie do tworzenia i zarz±dzania 
+Jest to £atwe_w_u¿ytkowaniu narzêdzie do tworzenia i zarz±dzania
 makefile'ami po¶ród wielu platform i kompilatorów. Idea jest taka, ¿e
 powiniene¶ spêdzaæ czas pisz±c kod, a nie Makefile.
 
