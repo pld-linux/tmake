@@ -9,6 +9,7 @@ Group:		Development/Building
 Source0:	ftp://ftp.troll.no/freebies/tmake/%{name}-%{version}.tar.gz
 # Source0-md5:	02909d15e5eee9d355b81d74b98a3bea
 URL:		http://www.troll.no/freebies/tmake.html
+BuildRequires:	rpm-perlprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
