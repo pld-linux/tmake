@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Easy-to-use tool for creating and maintaining portable makefiles
-Summary(pl):	£atwe_w_u¿ytkowaniu narzêdzie do tworzenia i zarz±dzania przeno¶nymi makefile'ami
+Summary(pl.UTF-8):   Åatwe_w_uÅ¼ytkowaniu narzÄ™dzie do tworzenia i zarzÄ…dzania przenoÅ›nymi makefile'ami
 Name:		tmake
 Version:	1.13
 Release:	3
@@ -17,10 +17,10 @@ This is an easy-to-use tool for creating and maintaining makefiles
 across many platforms and compilers. The idea is that you should spend
 your time writing code, not makefiles.
 
-%description -l pl
-Jest to £atwe_w_u¿ytkowaniu narzêdzie do tworzenia i zarz±dzania
-makefile'ami po¶ród wielu platform i kompilatorów. Idea jest taka, ¿e
-powiniene¶ spêdzaæ czas pisz±c kod, a nie Makefile.
+%description -l pl.UTF-8
+Jest to Åatwe_w_uÅ¼ytkowaniu narzÄ™dzie do tworzenia i zarzÄ…dzania
+makefile'ami poÅ›rÃ³d wielu platform i kompilatorÃ³w. Idea jest taka, Å¼e
+powinieneÅ› spÄ™dzaÄ‡ czas piszÄ…c kod, a nie Makefile.
 
 %prep
 %setup -q
