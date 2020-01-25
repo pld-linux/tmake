@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Easy-to-use tool for creating and maintaining portable makefiles
 Summary(pl.UTF-8):	Łatwe_w_użytkowaniu narzędzie do tworzenia i zarządzania przenośnymi makefile'ami
 Name:		tmake
